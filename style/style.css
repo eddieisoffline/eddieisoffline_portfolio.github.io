@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-primario: #27005D;
+    --color-secundario: #9400FF;
+    --color-terciario: #AED2FF;
+    --color-cuaternario: #211951;
+
+    --fuente-primaria: 'Krona One', sans-serif;
+    --fuente-secundaria: 'Montserrat', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:var(--color-primario);
+    color: var(--color-secundario);
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.header__nav{
+    display: flex;
+    gap: 80px;
+}
+
+.header__nav__link{
+    font-size: 24px;
+    font-family: var(--fuente-secundaria);
+    font-weight: 600;
+    color: var(--color-terciario);
+    text-decoration: none;
+}
+.header__nav__link:hover{
+    color: var(--color-secundario);
+}
+.titulo_destacar{
+    color: var(--color-terciario);
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding: 2% 15%;
+    justify-content: space-between;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;
+
+}
+
+.imagen__acercade{
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;
+}
+
+.imagen{
+    margin-bottom: 230px;
+}
+.presentacion{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.titulo{
+    font-size: 36px;
+    font-family: var(--fuente-primaria);
+}
+.parrafo{
+    font-size: 24px;
+    font-family: var(--fuente-secundaria);
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.boton{
+   width: 378px;
+    text-align: center;
+   padding: 18.5px 0;
+   border-radius: 8px;
+   font-family: var(--fuente-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-secundario);
+    border: 2px solid var(--color-terciario);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.boton:hover{
+    background-color: var(--color-terciario);
+    color: var(--color-primario);
+}
+
+.titulo_presentacion{
+    font-size: 24px;
+    font-family: var(--fuente-primaria);
+    font-weight: 400;
+}
+
+.icono{
+    width: 32px;
+    height: 32px;
+}
+
+.foot{
+    background-color: var(--color-cuaternario);
+    color: var(--color-terciario);
+    padding: 24px;
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--fuente-secundaria);
+    font-weight: 400;
+}
